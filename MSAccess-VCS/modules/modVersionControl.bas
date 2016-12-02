@@ -16,7 +16,7 @@ Public Sub InitializeVersionControlSystem(Optional blnUseVersionControl As Boole
     '//////////////////////////////////////////////////////////
     
     ' Version Control Library
-    Const cstrLibraryPath As String = "T:\Apps\SysAdmin\Development\"
+    Const cstrLibraryPath As String = "T:\Apps\SysAdmin\Development\"	' Full path or "\" for current folder.
     Const cstrLibraryFile As String = "Version Control.accda"
     Const cstrLibraryName As String = "MSAccess-VCS"
     
