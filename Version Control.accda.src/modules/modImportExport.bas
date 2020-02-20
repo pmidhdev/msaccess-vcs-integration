@@ -711,7 +711,7 @@ End Function
         End If
         If Not IsEmpty(obj_type_num) Then
             Select Case obj_type_label
-                Case "modules", "macros", "reports", "forms"
+                Case "modules", "macros", "reports", "forms", "queries"
                     ucs2 = False
                 Case Else
                     ucs2 = modFileAccess.UsingUcs2
